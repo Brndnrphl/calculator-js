@@ -21,7 +21,7 @@ The script.js file includes event listeners for various calculator buttons:
 - **clearAllButton:** Listens for a click event and calls the clear() method.
 - **calculateButton:** Listens for a click event and calls the calculate() method.
 - **deleteButton:** Listens for a click event and calls the remove() method.
-- **keyDown** Listens for when a key 1-9 is pressed and appens it to the current operand.
+- **keyDown:** Listens for when a key 1-9 is pressed and appens it to the current operand.
 
 ## Usage
 To use the Calculator class, create a new instance using the `new Calculator()` syntax. The calculator is automatically initialized when the page loads.
