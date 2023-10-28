@@ -157,6 +157,16 @@ numberButtons.forEach((button) => {
   });
 });
 
+document.addEventListener("keydown", (event) => {
+  const key = event.key;
+  const numberButtons = document.querySelectorAll("[data-number]");
+  numberButtons.forEach((button) => {
+    if (button.innerText === key) {
+      button.click();
+    }
+  });
+});
+
 operationButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const operand = button.innerText;
