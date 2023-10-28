@@ -1,4 +1,4 @@
-Calculator JavaScript Code README
+## Calculator
 
 This README provides an overview of the JavaScript code in script.js for the Calculator application.
 Overview
