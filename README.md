@@ -5,7 +5,7 @@ This calculator is my first project built with HTML, CSS and Javascript
 This README provides an explanation of the JavaScript code in script.js for a simple calculator application. The code defines a Calculator class that handles the calculator's functionality. It also sets up event listeners for the calculator buttons and initializes the calculator when the page loads.
 
 ## Calculator Class
-The Calculator class, starting from line 1, contains the following methods:
+The Calculator class, contains the following methods that make the calculator work:
 - **constructor():** Initializes the Calculator object and sets initial values for previousOperandText, currentOperandText, and operation.
 - **clear():** Clears the previous and current operand texts.
 - **remove():** Removes the last character from the current operand text.
